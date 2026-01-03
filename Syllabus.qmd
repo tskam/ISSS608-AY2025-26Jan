@@ -59,10 +59,14 @@ You don't have to finish reading either one of them before lesson starts. Take y
 
 The grading distribution of this course is as follows:
 
--   Pre-lesson Preparation and Hands-on Exercise 15%
--   In-class Exercise and Class Participation 15%
--   Take-home Exercise 40%
--   Visual Analytics Project 30%
+| Assignments / Assessment categories                   | Weighting |
+|-------------------------------------------------------|-----------|
+| Pre-lesson Learning and Hands-on Exercise (1.0% x 10) | 10%       |
+| Class participation and In-class Exercise (1.0% x 10) | 10%       |
+| Timed Individual Assessment                           | 20%       |
+| Take-home Exercise (Not more than 3)                  | 40%       |
+| Visual Analytics Project                              | 20%       |
+
 
 ### Hands-on Exercise and In-class Exercise Grading division
 
@@ -82,24 +86,29 @@ The assessment for this course consists of four major components, namely:
 
 -   Pre-lesson Preparation and Hands-on Exercise
 -   In-class Exercise and Class Participation
+-   Timed Individual Assessment
 -   Take-home exercises
 -   Visual Analytics Project
 
-### Pre-lesson Preparation and Hands-on Exercise
+### Pre-lesson Preparation and Hands-on Exercise (10%)
 
 Pre-lesson videos/slides and recommended readings exercises will be released one week before the weekly lesson starts. A strict requirement for each class meeting is to complete the assigned readings and video before coming to class. Students are encouraged to post question or issue encountered while viewing the video or reading the recommended articles on Piazza. Student sharing of insights from readings of assigned materials on Piazza will form a large part of the learning in this course. After learning the data visuaisation concepts and methods from lesson materials, the hands-on exercises aim to provide students the opportunity to gain hands-on experience on using selected R packages. It is important for students to complete the hands-on exercises before class. This is because the in-class discussion will extend the methods learned from the hands-on exercise to advanced modelling.
 
-### In-class Exercise and Class Participation
+### In-class Exercise and Class Participation (10%)
 
 During lesson, students are required to complete a series of in-class exercises using either Tableau or R. The in-class discussion will focus on how to critic existing data visualisation and how to deliver effective visual communication. In general, these exercises are guided interactively. By the end of each lesson, students are required to publish their in-class exercise on Tableau Public or Netlify.
 
-### Take-home Exercise
+### Timed Individual Assessment (20%)
+
+A timed individual assessment is designed to evaluate each student's ability to complete an assignment within a specified time limit. The assessment will involve, but is not limited to, understanding the business problem, assembling the analytical sandbox, performing the analysis, and interpreting and communicating the results. It will be conducted in class and will not exceed 30 minutes.
+
+### Take-home Exercise (40%)
 
 The take-home exercise provides students with the opportunity to revise and practice the R packages and programming skills they had learned in class at home. It is a weekly exercise. Each exercise is designed to be completed within 3-5 hours. The exercise is not a repetition of the in-class exercise but it requires students to be innovative and creative in applying appropriate R packages to design enlightening and yet functional data visualisation for analytics purposes.
 
 Students may work together to help one another with R programming issues and discuss the materials that constitute the take-home exercise. However, each student is required to prepare and submit the take-home exercise (including any computer work) on their own. Cheating is strictly prohibited. Cheating includes but not limited to: plagiarism and submission of work that is not the student's
 
-### Visual Analytics Project
+### Visual Analytics Project (20%)
 
 The purpose of the project is to provide students first hand experience on building **web-enabled visual analytics application** by using **Shiny**. It aims to **democratize data and analytics**. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.
 
