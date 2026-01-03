@@ -1,7 +1,7 @@
 ---
 title: "Syllabus"
 description: ""
-date: "April 12, 2024"
+date: "January 1, 2026"
 date-modified: "last-modified"
 format: html
 editor: visual

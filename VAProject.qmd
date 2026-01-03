@@ -1,6 +1,6 @@
 ---
 title: "Visual Analytics Project"
-date: "April 7, 2025"
+date: "January 1, 2026"
 date-modified: "last-modified"
 format: html
 editor: visual
@@ -16,7 +16,7 @@ A project may involve developing new methods or implementing visual analytics sy
 
 ## Project Topic
 
-This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2025](https://vast-challenge.github.io/2025/index.html). There are three Mini Challenges (MC). Teams are required to choose **one** of the MC and build a Shiny Application to answer the questions of the challenge.
+TBC
 
 ## Project Management
 
@@ -27,10 +27,10 @@ A good group project is a system consisting of a collection of well defined sub-
 ## Project Milestone
 
 -   Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
--   Editing and publishing project proposal on Netlify latest by the end of **8th June 2025 at 11:59pm (mid-night)**.
--   Uploading project poster on eLearn by ~~**26th June**~~ **2nd July 2025 (Wednesday) at 11:59pm (mid-night)**.
--   Poster presentation: ~~**2nd**~~ **5th July 2025 (Saturday), 2:00pm-3:30pm**
--   Submission of Shiny application repository, project website repository, project poster, Minutes of Meeting and Peer Evaluation: **6th July 2025 (Sunday) by 11:59pm (mid-night)**
+-   Editing and publishing project proposal on Netlify latest by the end of **15th March 2026 at 11:59pm (mid-night)**.
+-   Uploading project poster on eLearn by **1st April 2026 (Wednesday) at 11:59pm (mid-night)**.
+-   Poster presentation: **4th April 2026 (Saturday), 2:00pm-3:30pm**
+-   Submission of Shiny application repository, project website repository, project poster, Minutes of Meeting and Peer Evaluation: **5th April 2026 (Sunday) by 11:59pm (mid-night)**
 
 ## Project Deliverable
 
@@ -74,9 +74,9 @@ Please ensure that the poster is in high resolution.
 
 **Note:** The poster will be considered a final deliverable, so don't forget to apply good visual design and data visualisation principles and best practice to your poster.
 
-### Peer Evaluation 
+### Peer Evaluation
 
-During the townhall presentation, students are required to visit at least **three** poster booths and evaluate the Shiny applications designed and developed by them.  By the end of the poster presentation, each project team are required to submit, as a group, three peer evaluation reports in a single MS Word file.  The peer evaluation template can be found on eLearn.
+During the townhall presentation, students are required to visit at least **three** poster booths and evaluate the Shiny applications designed and developed by them. By the end of the poster presentation, each project team are required to submit, as a group, three peer evaluation reports in a single MS Word file. The peer evaluation template can be found on eLearn.
 
 ### Final Deliverables
 
@@ -94,7 +94,7 @@ The final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). I
 
 ## Grading
 
-The visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:
+The visual analytics project will account for 20% of your final grade in the course. The distribution of marks for each stage of the project are as follows:
 
 -   Project website 15%
 -   Poster 10%
@@ -146,6 +146,11 @@ Note that the following examples are for references purposes. You are urge to us
 ## AY2023-2024 April Term
 
 -   [The Big Fish: Catching Illegal Fishing Through Visual Analytics](https://isss608-202324g4.netlify.app/). Specially mentioned: This project won **VAST Challenge 2024: Award for Comprehensive Characterization of Suspicious Behaviors**.
+
+## AY2024-2025 January Term
+
+## AY2024-2025 April Term
+
 
 # Q & A
 

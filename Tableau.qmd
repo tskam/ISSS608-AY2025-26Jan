@@ -2,6 +2,7 @@
 title: "Tableau Resources"
 description: |
   This page provided useful links to Tableau resources.
+date: "January 1 2026"
 date-modified: "last-modified"
 format: html
 editor: visual

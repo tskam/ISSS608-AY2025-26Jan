@@ -2,7 +2,7 @@
 title: "R for Visual Analytics"
 description: |
   This page provides links to useful R packages and references for data visualisation and visual analytics.
-date: "April 12, 2025"
+date: "January 1, 2026"
 date-modified: "last-modified"
 format: html
 editor: visual

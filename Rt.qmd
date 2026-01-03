@@ -2,7 +2,7 @@
 title: "R Tips & Tricks"
 description: |
   This pages contains a collection of survival tips and trick working with R.
-date: "April 12,  2025"
+date: "January 1,  2026"
 date-modified: "last-modified"
 format:
   html:

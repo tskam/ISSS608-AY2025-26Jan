@@ -2,7 +2,7 @@
 title: "R Resources"
 description: |
   This page provides links to a selected resources to learn modern R packages, especially those related to tidyverse framework.
-date: "April 12, 2025"
+date: "January 1, 2026"
 date-modified: "last-modified"
 format: html
 editor: visual

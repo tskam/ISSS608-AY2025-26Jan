@@ -1,6 +1,6 @@
 ---
 title: "All About Quarto"
-date: "April 12, 2025"
+date: "January 1, 2026"
 date-modified: "last-modified"
 format: html
 editor: visual
