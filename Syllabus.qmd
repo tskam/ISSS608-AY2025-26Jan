@@ -67,7 +67,6 @@ The grading distribution of this course is as follows:
 | Take-home Exercise (Not more than 3)                  | 40%       |
 | Visual Analytics Project                              | 20%       |
 
-
 ### Hands-on Exercise and In-class Exercise Grading division
 
 -   D failed to submit by submission deadline.
@@ -104,7 +103,7 @@ A timed individual assessment is designed to evaluate each student's ability to 
 
 ### Take-home Exercise (40%)
 
-The take-home exercise provides students with the opportunity to revise and practice the R packages and programming skills they had learned in class at home. It is a weekly exercise. Each exercise is designed to be completed within 3-5 hours. The exercise is not a repetition of the in-class exercise but it requires students to be innovative and creative in applying appropriate R packages to design enlightening and yet functional data visualisation for analytics purposes.
+The take-home exercise provides students with the opportunity to revise and practice the R packages and programming skills they had learned in class at home. There will be three take-home exercises to be completed by students. Each exercise is designed to be completed within 32 hours. The exercise is not a repetition of the in-class exercise but it requires students to be innovative and creative in applying appropriate R packages to design enlightening and yet functional data visualisation for analytics purposes.
 
 Students may work together to help one another with R programming issues and discuss the materials that constitute the take-home exercise. However, each student is required to prepare and submit the take-home exercise (including any computer work) on their own. Cheating is strictly prohibited. Cheating includes but not limited to: plagiarism and submission of work that is not the student's
 
