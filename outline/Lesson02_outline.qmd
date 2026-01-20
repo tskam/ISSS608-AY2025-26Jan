@@ -49,7 +49,7 @@ editor: visual
 -   [Mistakes, we've drawn a few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
 -   [FT stories through charts and graphics](https://www.ft.com/graphics)
 -   [Three Steps to Make Your Data Clearer](https://www.tableau.com/sites/default/files/whitepapers/three_steps_to_make_your_data_clearer_the_gi_tableau_guide.pdf)
--   [When your own data contradicts your headline](http://www.thefunctionalart.com/2019/03/when-your-own-data-contradicts-your.html)
+-   [When your own data contradicts your headline](https://thefunctionalart.blogspot.com/2019/03/when-your-own-data-contradicts-your.html)
 
 ## All About Tableau
 
