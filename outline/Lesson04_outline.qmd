@@ -71,3 +71,40 @@ editor: visual
 -   [performance](https://easystats.github.io/performance/): An R package provides utilities for computing indices of model quality and goodness of fit including provides many functions to check model assumptions visually.
 
 -   [infer](https://infer.netlify.app/index.html): An R package specially designed to perform statistical inference using an expressive statistical grammar that coheres with the tidyverse design framework. The library also includes functions for visualising the distribution of the simulation-based inferential statistics or the theoretical distribution (or both).
+
+## Visual Analytics Method(s) of the Week
+
+### Boxplot
+
+-   [Understanding Boxplots](https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51)
+-   [Visualizing samples with box plots](https://www.nature.com/articles/nmeth.2813) ![](img/new1.jpg)
+-   Regina L. Nuzzo (2016) ["The Box Plots Alternative for Visualizing Quantitative Data"](https://onlinelibrary.wiley.com/doi/pdf/10.1016/j.pmrj.2016.02.001), *PR&M*, Volume8, Issue3, pp. 268-272.
+
+### Violin Plots
+
+-   [Violin Plot-wikipedia](https://en.wikipedia.org/wiki/Violin_plot)
+-   Hintze, Jerry L.; Nelson, Ray D. (1998). "[Violin Plots: A Box Plot-Density Trace Synergism](https://search.proquest.com/openview/dcd68eb137d2d6b08aa23f37e34e0b01/1?pq-origsite=gscholar)". *The American Statistician*. 52 (2): 181--4
+-   [Violin Plot](https://www.londonsoda.com/articles/violin-plots) by LondonSODA.
+
+### Notched Box Plots
+
+-   [Notched Box Plots](https://sites.google.com/site/davidsstatistics/davids-statistics/notched-box-plots)
+
+### Dot Plots
+
+-   [Dot plots](https://search-proquest-com.libproxy.smu.edu.sg/docview/228429978?rfr_id=info%3Axri%2Fsid%3Aprimo)
+-   [Dot Plots: A Useful Alternative to Bar Charts](http://www.b-eye-network.com/view/2468)
+-   [The dot plot: A graphical tool for data analysis and presentation](https://d-nb.info/1151959243/34)
+-   Leland Wilkinson (1999) ["Dot Plot"](http://moderngraphics11.pbworks.com/f/wilkinson_1999.DotPlots.pdf), *Statistical Computing and Graphics*, Vol. 53, No. 3, pp. 276-281.
+
+### Raincloud Plots
+
+-   Allen M, Poggiali D, Whitaker K et al. ["Raincloud plots: a multi-platform tool for robust data. visualization"](https://wellcomeopenresearch.org/articles/4-63) \[version 2; peer review: 2 approved\]. *Welcome Open Res* 2021, pp. 4:63.
+
+### Diverging Stacked Bar Chart
+
+-   [Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications](https://www.jstatsoft.org/article/view/v057i05)
+-   [When Are 100% Stacked Bar Graphs Useful?](https://www.perceptualedge.com/blog/?p=2239)
+-   [The case against diverging stacked bars](https://blog.datawrapper.de/divergingbars/)
+-   [Are diverging 100% stacked bars useless?](https://www.linkedin.com/pulse/diverging-100-stacked-bars-useless-daniel-zvinca/?published=t)
+-   [Rethinking the divergent stacked bar chart --- placing the stronger views in the center](https://www.datarevelations.com/rethinkingdivergent.html)

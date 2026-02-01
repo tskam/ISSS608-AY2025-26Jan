@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-01-01">
+<meta name="dcterms.date" content="2026-02-01">
 
-<title>Lesson 4: Fundamentals of Visual Analytics – ISSS608</title>
+<title>TH_EX1 – ISSS608</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -175,26 +175,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lesson-outline" id="toc-lesson-outline" class="nav-link active" data-scroll-target="#lesson-outline">Lesson Outline</a></li>
-  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
-  <li><a href="#readings-on-visualising-uncertainty" id="toc-readings-on-visualising-uncertainty" class="nav-link" data-scroll-target="#readings-on-visualising-uncertainty">Readings on Visualising Uncertainty</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#setting-the-scene" id="toc-setting-the-scene" class="nav-link" data-scroll-target="#setting-the-scene">Setting the scene</a></li>
+  <li><a href="#the-task" id="toc-the-task" class="nav-link" data-scroll-target="#the-task">The Task</a></li>
+  <li><a href="#the-designing-tool" id="toc-the-designing-tool" class="nav-link" data-scroll-target="#the-designing-tool">The Designing Tool</a></li>
+  <li><a href="#the-write-up" id="toc-the-write-up" class="nav-link" data-scroll-target="#the-write-up">The Write-up</a></li>
+  <li><a href="#submission-instructions" id="toc-submission-instructions" class="nav-link" data-scroll-target="#submission-instructions">Submission Instructions</a>
   <ul class="collapse">
-  <li><a href="#error-plots" id="toc-error-plots" class="nav-link" data-scroll-target="#error-plots">Error Plots</a></li>
-  <li><a href="#funnel-plots" id="toc-funnel-plots" class="nav-link" data-scroll-target="#funnel-plots">Funnel Plots</a></li>
-  </ul></li>
-  <li><a href="#all-about-tableau" id="toc-all-about-tableau" class="nav-link" data-scroll-target="#all-about-tableau">All About Tableau</a>
-  <ul class="collapse">
-  <li><a href="#visualising-uncertainty" id="toc-visualising-uncertainty" class="nav-link" data-scroll-target="#visualising-uncertainty">Visualising Uncertainty</a></li>
-  </ul></li>
-  <li><a href="#all-about-r" id="toc-all-about-r" class="nav-link" data-scroll-target="#all-about-r">All about R</a></li>
-  <li><a href="#visual-analytics-methods-of-the-week" id="toc-visual-analytics-methods-of-the-week" class="nav-link" data-scroll-target="#visual-analytics-methods-of-the-week">Visual Analytics Method(s) of the Week</a>
-  <ul class="collapse">
-  <li><a href="#boxplot" id="toc-boxplot" class="nav-link" data-scroll-target="#boxplot">Boxplot</a></li>
-  <li><a href="#violin-plots" id="toc-violin-plots" class="nav-link" data-scroll-target="#violin-plots">Violin Plots</a></li>
-  <li><a href="#notched-box-plots" id="toc-notched-box-plots" class="nav-link" data-scroll-target="#notched-box-plots">Notched Box Plots</a></li>
-  <li><a href="#dot-plots" id="toc-dot-plots" class="nav-link" data-scroll-target="#dot-plots">Dot Plots</a></li>
-  <li><a href="#raincloud-plots" id="toc-raincloud-plots" class="nav-link" data-scroll-target="#raincloud-plots">Raincloud Plots</a></li>
-  <li><a href="#diverging-stacked-bar-chart" id="toc-diverging-stacked-bar-chart" class="nav-link" data-scroll-target="#diverging-stacked-bar-chart">Diverging Stacked Bar Chart</a></li>
+  <li><a href="#submission-date" id="toc-submission-date" class="nav-link" data-scroll-target="#submission-date">Submission date</a></li>
+  <li><a href="#learning-from-senior" id="toc-learning-from-senior" class="nav-link" data-scroll-target="#learning-from-senior">Learning from senior</a></li>
+  <li><a href="#peer-learning" id="toc-peer-learning" class="nav-link" data-scroll-target="#peer-learning">Peer Learning</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -204,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 4: Fundamentals of Visual Analytics</h1>
+<h1 class="title">TH_EX1</h1>
 </div>
 
 
@@ -215,14 +205,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2026</p>
+      <p class="date">February 1, 2026</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 20, 2026</p>
+      <p class="date-modified">February 1, 2026</p>
     </div>
   </div>
     
@@ -233,138 +223,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="lesson-outline" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-outline">Lesson Outline</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Creating data visualisation that is enligthening and truthful
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Creating enlightening and truthful data visualizations involves focusing on accuracy, transparency, and the ability to effectively communicate insights. It’s about presenting data in a way that is both informative and aesthetically pleasing, ensuring the audience can grasp the information quickly and accurately.</p>
+</div>
+</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise.</p>
+</section>
+<section id="setting-the-scene" class="level2">
+<h2 class="anchored" data-anchor-id="setting-the-scene">Setting the scene</h2>
+<p>Survey analysis is the process of transforming raw survey data into decision-relevant insights. It focuses on identifying patterns, trends, and relationships within responses by using descriptive methods (such as counts, percentages, and averages) as well as inferential methods (such as correlations and significance tests) to interpret results and inform decision-making.</p>
+</section>
+<section id="the-task" class="level2">
+<h2 class="anchored" data-anchor-id="the-task">The Task</h2>
+<p>For this take-home exercise, students are required to select one of the survey datasets below and apply appropriate, visually-driven survey analysis methods to reveal and communicate <strong>at least five</strong> and <strong>no more than ten</strong> key observations derived from their analysis.</p>
 <ul>
-<li>Visual Analytics for Knowledge Discovery</li>
-<li>Visual Analytics Approach for Statistical Testing</li>
-<li>Visual Analytics for Building Better Models</li>
-<li>Visualising Uncertainty
-<ul>
-<li>Why Visualising Uncertainty?</li>
-<li>Basic Statistical Concepts Related to Uncertainty</li>
-<li>Univariate Graphical Methods for Visualising Uncertainty
-<ul>
-<li>Error bars</li>
-<li>Confidence strips</li>
-<li>Ridge plot</li>
-</ul></li>
-<li>Bivariate Graphical Methods for Visualising Uncertainty
-<ul>
-<li>Funnel plot</li>
-</ul></li>
-</ul></li>
-<li>Variation and Its Discontents</li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S235234092100576X">Income of informal labourers in rural areas: A survey dataset of northern mountainous regions in Vietnam</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S2352340925001702">Dataset of factors affecting learning outcomes of students at the University of Education,Vietnam National University, Hanoi</a></li>
 </ul>
 </section>
-<section id="lesson-slides-and-hands-on-notes" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
+<section id="the-designing-tool" class="level2">
+<h2 class="anchored" data-anchor-id="the-designing-tool">The Designing Tool</h2>
+<p>The data should be processed by using appropriate <strong>tidyverse</strong> family of packages and the data visualisation must be prepared using <strong>ggplot2</strong> and <strong>its extensions</strong>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>No interactive data visualisation are required.</p>
+</div>
+</div>
+</section>
+<section id="the-write-up" class="level2">
+<h2 class="anchored" data-anchor-id="the-write-up">The Write-up</h2>
+<p>The write-up of the take-home exercise should include but not limited to the followings:</p>
 <ul>
-<li><p><a href="../lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html">Lesson 4: Fundamentals of Visual Analytics</a> slides</p></li>
-<li><p>Hands-on Exercises</p>
-<ul>
-<li><a href="https://r4va.netlify.app/chap09">Hands-on Exercise 4: Visualising Distribution</a></li>
-<li><a href="https://r4va.netlify.app/chap10">Hands-on Exercise 4: Visual Statistical Analysis</a></li>
-<li><a href="https://r4va.netlify.app/chap11">Hands-on Exercise 4: Visualising Uncertainty</a></li>
-<li><a href="https://r4va.netlify.app/chap08">Hands-on Exercise 4: Building Funnel Plot with R</a></li>
-</ul></li>
+<li><p>A reproducible description of the procedures used to prepare the analytical visualisation. Please refer to the senior submission I shared below.</p></li>
+<li><p>A write-up of no more than <strong>150 words</strong> per each data visualisation, describing and discussing the patterns reveal by each visualisation prepared.</p></li>
 </ul>
 </section>
-<section id="readings-on-visualising-uncertainty" class="level2">
-<h2 class="anchored" data-anchor-id="readings-on-visualising-uncertainty">Readings on Visualising Uncertainty</h2>
+<section id="submission-instructions" class="level1">
+<h1>Submission Instructions</h1>
+<p>This is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The specific submission instructions are as follows:</p>
 <ul>
-<li><a href="https://hbr.org/2016/11/why-its-so-hard-for-us-to-visualize-uncertainty">Why It’s So Hard for Us to Visualize Uncertainty</a></li>
-<li><a href="https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/">Visualizing the Uncertainty in Data</a></li>
-<li><a href="https://medium.com/multiple-views-visualization-research-explained/uncertainty-visualization-explained-67e7a73f031b">Uncertainty + Visualization, Explained</a></li>
+<li>The analytical visualisation must be prepared by using <strong>R and appropriate R packages</strong>.</li>
+<li>The write-up of the take-home exercise must be in <strong>Quarto html document</strong> format. You are required to publish the write-up on <a href="https://www.netlify.com/"><strong>Netlify</strong></a>.</li>
 </ul>
-<section id="error-plots" class="level3">
-<h3 class="anchored" data-anchor-id="error-plots">Error Plots</h3>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Error_bar">Error bar</a></li>
-</ul>
+</div>
+</div>
+<section id="submission-date" class="level2">
+<h2 class="anchored" data-anchor-id="submission-date">Submission date</h2>
+<p>The completed take-home exercise is due on <strong>15th February 2026 (Sunday) by 11:59pm mid-night</strong>.</p>
 </section>
-<section id="funnel-plots" class="level3">
-<h3 class="anchored" data-anchor-id="funnel-plots">Funnel Plots</h3>
+<section id="learning-from-senior" class="level2">
+<h2 class="anchored" data-anchor-id="learning-from-senior">Learning from senior</h2>
 <ul>
-<li><a href="https://www.perceptualedge.com/articles/visual_business_intelligence/variation_and_its_discontents.pdf">Variation and Its Discontents: Funnel Plots for Fair Comparisons</a></li>
-<li><a href="https://understandinguncertainty.org/fertility">What are the chances of successful fertility treatment?</a></li>
-<li><a href="https://understandinguncertainty.org/three-fold-variation-uk-bowel-cancer-death-rates">Three-fold variation in UK bowel cancer death rates(?)</a></li>
-<li><a href="https://pophealthmetrics.biomedcentral.com/articles/10.1186/1478-7954-9-58">Using funnel plots in public health surveillance</a></li>
-<li><a href="https://community.jmp.com/t5/JMP-Blog/Graph-Makeover-Where-same-sex-couples-live-in-the-US/ba-p/30616">Graph Makeover: Where same-sex couples live in the US</a></li>
-<li><a href="https://pdfs.semanticscholar.org/516b/afaccbd9b9bf82c9afdf507121f1a52e3093.pdf">Using maps and funnel plots to explore variation in place of death from cancer within London, 2002–2007</a></li>
-</ul>
-</section>
-</section>
-<section id="all-about-tableau" class="level2">
-<h2 class="anchored" data-anchor-id="all-about-tableau">All About Tableau</h2>
-<section id="visualising-uncertainty" class="level3">
-<h3 class="anchored" data-anchor-id="visualising-uncertainty">Visualising Uncertainty</h3>
-<ul>
-<li><a href="https://www.datarevelations.com/showing-uncertainty.html">Showing uncertainty in survey results</a></li>
-<li><a href="http://drawingwithnumbers.artisart.org/?s=Not+a+funnel+cake">Not a funnel cake, nor funnel charts, it’s funnel plots!</a></li>
-<li><a href="https://www.youtube.com/watch?v=HgYzplb5XAU">Funnel Plot in Tableau</a></li>
-<li><a href="https://kb.tableau.com/articles/howto/creating-error-bars">Creating Error Bars or CI Bars</a></li>
-<li><a href="https://www.theinformationlab.co.uk/2019/10/25/standard-errors-and-confidence-intervals-in-tableau/">Standard errors and confidence intervals in Tableau</a></li>
+<li><a href="https://akalestale.netlify.app/take-home_ex/take-home_ex01/take-home_ex01">KYLIE TAN JING YI</a></li>
+<li><a href="https://janettoaisss608.netlify.app/take-home_ex/take-home_ex01/take-home_ex01">TOA ZI YING JANET</a></li>
+<li><a href="https://isss608-spacebun.netlify.app/take-home_ex/take-home_ex1/take-home_ex1">LEW YING ZHEN SERENA</a></li>
+<li><a href="https://jingyi-vaa.netlify.app/take-home_ex/take-home_ex01/take-home_ex01">SENG JING YI</a></li>
+<li><a href="https://isss608-jayageorge.netlify.app/take-home_ex/take-home_ex01/take-home_ex01">JAYA GEORGE</a></li>
 </ul>
 </section>
-</section>
-<section id="all-about-r" class="level2">
-<h2 class="anchored" data-anchor-id="all-about-r">All about R</h2>
-<ul>
-<li><p><a href="https://indrajeetpatil.github.io/ggstatsplot/">ggstatsplot</a>: An extension of <strong>ggplot2</strong> package for creating statistical graphics with details from statistical tests.</p></li>
-<li><p><a href="https://mjskay.github.io/ggdist/index.html">ggdist</a>: An R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualising distributions and uncertainty.</p></li>
-<li><p><a href="https://easystats.github.io/performance/">performance</a>: An R package provides utilities for computing indices of model quality and goodness of fit including provides many functions to check model assumptions visually.</p></li>
-<li><p><a href="https://infer.netlify.app/index.html">infer</a>: An R package specially designed to perform statistical inference using an expressive statistical grammar that coheres with the tidyverse design framework. The library also includes functions for visualising the distribution of the simulation-based inferential statistics or the theoretical distribution (or both).</p></li>
-</ul>
-</section>
-<section id="visual-analytics-methods-of-the-week" class="level2">
-<h2 class="anchored" data-anchor-id="visual-analytics-methods-of-the-week">Visual Analytics Method(s) of the Week</h2>
-<section id="boxplot" class="level3">
-<h3 class="anchored" data-anchor-id="boxplot">Boxplot</h3>
-<ul>
-<li><a href="https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51">Understanding Boxplots</a></li>
-<li><a href="https://www.nature.com/articles/nmeth.2813">Visualizing samples with box plots</a> <img src="img/new1.jpg" class="img-fluid"></li>
-<li>Regina L. Nuzzo (2016) <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1016/j.pmrj.2016.02.001">“The Box Plots Alternative for Visualizing Quantitative Data”</a>, <em>PR&amp;M</em>, Volume8, Issue3, pp.&nbsp;268-272.</li>
-</ul>
-</section>
-<section id="violin-plots" class="level3">
-<h3 class="anchored" data-anchor-id="violin-plots">Violin Plots</h3>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Violin_plot">Violin Plot-wikipedia</a></li>
-<li>Hintze, Jerry L.; Nelson, Ray D. (1998). “<a href="https://search.proquest.com/openview/dcd68eb137d2d6b08aa23f37e34e0b01/1?pq-origsite=gscholar">Violin Plots: A Box Plot-Density Trace Synergism</a>”. <em>The American Statistician</em>. 52 (2): 181–4</li>
-<li><a href="https://www.londonsoda.com/articles/violin-plots">Violin Plot</a> by LondonSODA.</li>
-</ul>
-</section>
-<section id="notched-box-plots" class="level3">
-<h3 class="anchored" data-anchor-id="notched-box-plots">Notched Box Plots</h3>
-<ul>
-<li><a href="https://sites.google.com/site/davidsstatistics/davids-statistics/notched-box-plots">Notched Box Plots</a></li>
-</ul>
-</section>
-<section id="dot-plots" class="level3">
-<h3 class="anchored" data-anchor-id="dot-plots">Dot Plots</h3>
-<ul>
-<li><a href="https://search-proquest-com.libproxy.smu.edu.sg/docview/228429978?rfr_id=info%3Axri%2Fsid%3Aprimo">Dot plots</a></li>
-<li><a href="http://www.b-eye-network.com/view/2468">Dot Plots: A Useful Alternative to Bar Charts</a></li>
-<li><a href="https://d-nb.info/1151959243/34">The dot plot: A graphical tool for data analysis and presentation</a></li>
-<li>Leland Wilkinson (1999) <a href="http://moderngraphics11.pbworks.com/f/wilkinson_1999.DotPlots.pdf">“Dot Plot”</a>, <em>Statistical Computing and Graphics</em>, Vol. 53, No.&nbsp;3, pp.&nbsp;276-281.</li>
-</ul>
-</section>
-<section id="raincloud-plots" class="level3">
-<h3 class="anchored" data-anchor-id="raincloud-plots">Raincloud Plots</h3>
-<ul>
-<li>Allen M, Poggiali D, Whitaker K et al.&nbsp;<a href="https://wellcomeopenresearch.org/articles/4-63">“Raincloud plots: a multi-platform tool for robust data. visualization”</a> [version 2; peer review: 2 approved]. <em>Welcome Open Res</em> 2021, pp.&nbsp;4:63.</li>
-</ul>
-</section>
-<section id="diverging-stacked-bar-chart" class="level3">
-<h3 class="anchored" data-anchor-id="diverging-stacked-bar-chart">Diverging Stacked Bar Chart</h3>
-<ul>
-<li><a href="https://www.jstatsoft.org/article/view/v057i05">Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications</a></li>
-<li><a href="https://www.perceptualedge.com/blog/?p=2239">When Are 100% Stacked Bar Graphs Useful?</a></li>
-<li><a href="https://blog.datawrapper.de/divergingbars/">The case against diverging stacked bars</a></li>
-<li><a href="https://www.linkedin.com/pulse/diverging-100-stacked-bars-useless-daniel-zvinca/?published=t">Are diverging 100% stacked bars useless?</a></li>
-<li><a href="https://www.datarevelations.com/rethinkingdivergent.html">Rethinking the divergent stacked bar chart — placing the stronger views in the center</a></li>
-</ul>
+<section id="peer-learning" class="level2">
+<h2 class="anchored" data-anchor-id="peer-learning">Peer Learning</h2>
 
 
 </section>
