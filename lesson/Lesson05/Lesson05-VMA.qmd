@@ -246,7 +246,7 @@ ggpairs(exam, columns = 3:7)
 
 ::::: columns
 ::: {.column width="50%"}
--   [ggtern](http://www.ggtern.com/) is a package that extends the functionality of ggplot2, giving the capability to plot ternary diagrams for (subset of) the ggplot2 proto geometries.
+-   [ggtern](https://cran.r-project.org/web/packages/ggtern/index.html) is a package that extends the functionality of ggplot2, giving the capability to plot ternary diagrams for (subset of) the ggplot2 proto geometries.
 
 -   For a good start, please refer to the article entitle [ggtern: Ternary Diagrams Using ggplot2](https://www.jstatsoft.org/article/view/v087c03)
 :::
@@ -441,11 +441,97 @@ parallelPlot(wh[,7:12], histoVisibility = histoVisibility)
 In this slide, the colour and highlighting interativity function are used to highlight observation of interest.
 :::
 
-## Reference
+## Introducing Treemap
 
--   [Radar Chart](http://en.wikipedia.org/wiki/Radar_chart).
--   [Ternary plot](https://en.wikipedia.org/wiki/Ternary_plot), [this](http://csmres.jmu.edu/geollab/Fichter/SedRx/readternary.html) and [this](http://wvaughan.org/ternaryplots.html).
--   Friendly, M (2002) "Corrgrams: Exploratory Displays for Correlation Matrices" The American Statistician, Vol. 56, No. 4, pp. 316-324.
+- Space-constrained Visualisation of Hierarchies
+
+![](img/image5-23.jpg)
+
+---
+
+### History of Treemaps
+
+- Treemaps was first introduced by Prof. [Ben Shneiderman](https://en.wikipedia.org/wiki/Ben_Shneiderman) in 1998.
+- It was used to visualise files usage in a harddisk.
+- Refer to [this website](http://www.cs.umd.edu/hcil/treemap-history/) to learn more about the history of treemaps. 
+
+---
+
+### The Concept Behind Treemaps
+
+- Recursively slice and dice a rectangle in different directions to represent a (potentially large) hierarchy.
+
+![](img/image5-24.jpg)
+
+Visit this [site](https://eagereyes.org/blog/2008/treemaps#treemaps) to learn more.
+
+
+---
+
+### Treemap Layout: Squarified Treemaps
+
+- Optimise the placement of nodes within a level to make them as square as possible.
+
+![](img/image5-25.jpg)
+
+[Source](https://vanwijk.win.tue.nl/stm.pdf)
+
+---
+
+### Ordered Treemaps Layout
+
+Conserve the ordering of elements while seeking to keep nodes as square as possible, and thus produce very stable layouts.
+
+![](img/image5-26.jpg)
+
+---
+
+### Treemaps Design Best Practices 1: Hierarchy
+
+- Order hierarchy breakdowns and groupings according to the realities of the business.
+    - For equity analysis: Industrial sector, country, trading frequency, capitalisation, and son on.
+- Use categorical attributes for hierarchy
+
+---
+
+### Treemaps Design Best Practices 2: Measures
+
+- The size variable in a treemap should be used to indicate attributes that measure the importance of the item.  In general, these attributes are continues values. 
+
+- The colour variable in a treemap should be associated with attributes that indicate urgency or amount of change.  These attributes can be continuous or categorical.
+
+---
+
+### Treemaps Design Best Practices 3: Colour scheme
+
+- Use single colour with different intensity to represent the attribute’s values.  Colour with higher intensity represent higher value and colour with lower intensity represent lower value.
+
+- Use two colours if the attribute values consist of both positive and negative values.
+
+- Avoid using red-green combination.
+
+---
+
+### Treemaps Design Best Practices 4: Labelling
+
+- Avoid using label if the treemap is very cluttered.  For interactive treemap, tooltip is always more effective.
+
+- If labels are used, ensure that labels stand-out against treemaps colours.
+
+---
+
+### Treemaps Design Best Practices 5: Tooltip
+
+- Tooltip window should stand out clearly.
+
+![](img/image5-27.jpg)
+
+
+
+
+
+
+
 
 ```{r}
 #| echo: false
