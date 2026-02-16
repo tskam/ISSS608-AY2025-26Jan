@@ -22,7 +22,7 @@ editor: visual
 
 -   [Lesson 6a: Shiny Basic](../lesson/Lesson06/Shiny1/Shiny1.html)
 -   [Lesson 6b: Shiny Reactivity](../lesson/Lesson06/Shiny2/Shiny2.html)
--   [Lesson 6c: Beyond Basic Basic](../lesson/Lesson06/Shiny3/Shiny3.html)
+
 
 ### Getting Started
 
