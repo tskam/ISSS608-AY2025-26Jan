@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.8.26">
 
   <meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems">
-  <meta name="dcterms.date" content="2026-01-03">
+  <meta name="dcterms.date" content="2026-02-20">
   <title>ISSS608 – Building Web-enabled Visual Analytics Applications with Shiny: Shiny basic</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -207,7 +207,7 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems
     </div>
 </div>
 
-  <p class="date">03 Jan 2026</p>
+  <p class="date">20 Feb 2026</p>
 </section>
 <section id="content" class="slide level2">
 <h2>Content</h2>
@@ -485,6 +485,7 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems
 <li><p>Shiny ui.R scripts use the function <em>fluidPage</em> to create a display that automatically adjusts to the dimensions of your user’s browser window.</p></li>
 <li><p>You lay out your app by placing elements in the fluidPage function.</p></li>
 <li><p><em>titlePanel</em> and <em>sidebarLayout</em> are the two most popular elements to add to fluidPage. They create a basic Shiny app with a sidebar.</p></li>
+<li><p>To learn more about Shiny Layout, visit this <a href="https://shiny.posit.co/r/layouts/">link</a>.</p></li>
 </ul>
 </section>
 <section id="shiny-layout-panels" class="slide level2">
@@ -1133,6 +1134,82 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems
         ]
       });
     </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

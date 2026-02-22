@@ -16,13 +16,17 @@ A project may involve developing new methods or implementing visual analytics sy
 
 ## Project Topic
 
-TBC
+The followings are possible topic and data sources:
+
+-   [COFINFAD-Colombian Fintech Financial Analytics Dataset](https://data.mendeley.com/datasets/mhb4zn3258/1) and refer to [this article](https://www.sciencedirect.com/science/article/pii/S2352340926000375) for more details.  This data sets are very suitable for teams that are interesting to build Data Science and Analytics Applications that includes but not limited to Exploratory Data Analysis, Confirmatory Data Analysis, Cluster Analysis, Exploratory Modelling, and Predictive Modelling. 
+-   Be Businesswise or Otherwise! Visualising and analysing Business entities formation and closure using [ACRA (Accounting and Corporate Regulatory Authority) Information on Corporate Entities](https://data.gov.sg/datasets?query=ACRA&resultId=2) data sets.  These data sets are suitable for teams that are interested to build Geospatial Analytics Applications, ideally for students who have taken **ISSS626 Geospatial Analytics and Applications**.
+-   It's About Time: Visualising, Analysing and Modelling Time-series Data. For this topic, students are required to select a theme (i.e. Retail Prices, Consumer Price Index (CPI),etc ) and download the data set from CEIC database portal from SMU digital library.  The data provided in this portal are very suitable for teams that are interested to build time-series analysis applications that includes but not limited to EDA, time-series clustering, time-series forecasting. 
 
 ## Project Management
 
 The project is team work. Students are required to form a project team of **2-3** members by the first week of the academic term.
 
-A good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!
+**A good group project is a system consisting of a collection of well defined sub-modules**.  Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!
 
 ## Project Milestone
 
@@ -36,7 +40,7 @@ A good group project is a system consisting of a collection of well defined sub-
 
 ### Project Website
 
-At the beginning of the project, project teams are required to create a project website by using [Quarto](https://quarto.org/docs/websites/). The project website should include, beside others, project overview, prototypes, storyboards, analysis and results, poster and user guide. The project website repository must be uploaded on github and publish on [Netlify](https://www.netlify.com/). Git must be used to maintain a complete project version control including the application and project documents. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.
+At the beginning of the project, project teams are required to create a project website by using [Quarto](https://quarto.org/docs/websites/). The project website should include, beside others, project overview, prototypes, storyboards, analysis and results, poster and user guide. The project website repository must be uploaded on github and publish on your preferred web hosting service. Git must be used to maintain a complete project version control including the application and project documents. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.
 
 ### Minutes of Meeting
 
@@ -150,7 +154,6 @@ Note that the following examples are for references purposes. You are urge to us
 ## AY2024-2025 January Term
 
 ## AY2024-2025 April Term
-
 
 # Q & A
 

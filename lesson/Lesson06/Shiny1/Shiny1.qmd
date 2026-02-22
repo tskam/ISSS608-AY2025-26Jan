@@ -315,6 +315,8 @@ shinyApp (ui=ui, server=server)
 
 -   *titlePanel* and *sidebarLayout* are the two most popular elements to add to fluidPage. They create a basic Shiny app with a sidebar.
 
+-   To learn more about Shiny Layout, visit this [link](https://shiny.posit.co/r/layouts/). 
+
 ## Shiny Layout Panels
 
 -   Panels are used to group multiple elements into a single element that has its own properties.
