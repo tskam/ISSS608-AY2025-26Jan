@@ -8,16 +8,16 @@ editor: visual
 ---
 
 | Lesson | Date | Venue | Topic | Remark |
-|--------------|:-------------|--------------|:----------------|--------------|
+|---------|:--------|---------------|:------------------------|----------------|
 | 1 | 17/1 | SOE/SCIS2 SR 5-2 | [Introduction to Visual Analytics](outline/Lesson01_outline.html) |  |
 | 2 | 24/1 | SOE/SCIS2 SR 5-2 | [Designing Graphs to Enlighten](outline/Lesson02_outline.html) |  |
 | 3 | 31/1 | SOE/SCIS2 SR 5-2 | [Interactivity in Visual Analytics](outline/Lesson03_outline.html) |  |
 | 4 | 7/2 | SOE/SCIS2 SR 5-2 | [Fundamentals of Visual Analytics](outline/Lesson04_outline.html) | Take-home Exercise 1 due |
 | 5 | 14/2 | SOE/SCIS2 SR 5-2 | [Visual Multivariate Analysis](outline/Lesson05_outline.html) |  |
 | 6 | 21/2 | YPHSL SR B2-01 | [Designing Web-enabled Visual Analytics Application with Shiny](outline/Lesson06_outline.html) |  |
-| 7 | 28/2 | YPHSL SR B2-01 | [Visualising and Analysing Time-Oriented Data](outline/Lesson07_outline.html) | Take-home Exercise 2 due |
-|  | 7/3 | SOE/SCIS2 SR 5-2 | [Visualising and Analysing Geographic Data](outline/Lesson08_outline.html) |  |
-| 8 | 14/3 | SOE/SCIS2 SR 5-2 | [Visualising and Analysing Network Data](outline/Lesson09_outline.html) | Take-home Exercise 3 due |
-| 9 | 21/3 |  | Public Holiday |  |
+| 7 | 28/2 | YPHSL SR B2-01 | [Visualising and Analysing Time-Oriented Data](outline/Lesson07_outline.html) |  |
+| 8 | 7/3 | SOE/SCIS2 SR 5-2 | [Visualising and Analysing Geographic Data](outline/Lesson08_outline.html) |  |
+| 9 | 14/3 | SOE/SCIS2 SR 5-2 | [Visualising and Analysing Network Data](outline/Lesson09_outline.html) | Take-home Exercise 2 due on 15th March 2026 |
+|  | 21/3 |  | Public Holiday |  |
 | 10 | 28/3 | SOE/SCIS2 SR 5-2 | [Information Dashboard Design](outline/Lesson10_outline.html) |  |
-| 11 | 4/4 | TBC | Poster Presentation | VA Project due |
+| 11 | 4/4 | TBC | Poster Presentation | VA Project due 5th April 2026 |
