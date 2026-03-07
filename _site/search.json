@@ -2574,5 +2574,33 @@
     "title": "Take-home Exercise 2: Prototyping Modules for Visual Analytics Shiny Application",
     "section": "Peer Learning",
     "text": "Peer Learning"
+  },
+  {
+    "objectID": "TIA/TIA1.html",
+    "href": "TIA/TIA1.html",
+    "title": "Time Individual Assessment 1",
+    "section": "",
+    "text": "Note\n\n\n\nDataVis Makeover is the process of redesigning existing data visualisation or dashboards to improve their clarity, effectiveness, and storytelling capacity. It focuses on applying best practices to make data easier to understand."
+  },
+  {
+    "objectID": "TIA/TIA1.html#the-task",
+    "href": "TIA/TIA1.html#the-task",
+    "title": "Time Individual Assessment 1",
+    "section": "The Task",
+    "text": "The Task\nIn this Timed Individual Assessment, you are required to:\n\nSelect one of the following data visualisations (refer to the provided webpage):\n\nTOTAL MERCHANDISE TRADE AT CURRENT PRICES, 2021-2025\nMERCHANDISE TRADE PERFORMANCE WITH MAJOR TRADING PARTNERS, 2025\nMAJOR TRADING PARTNERS FOR TRADE IN SERVICES, 2024\n\nEvaluate the selected visualisation by identifying its strengths and weaknesses.\nProvide a sketch of a redesigned visualisation that improves upon the original design.\nCreate the DataVis Makeover using Tableau Desktop."
+  },
+  {
+    "objectID": "TIA/TIA1.html#submission-instructions",
+    "href": "TIA/TIA1.html#submission-instructions",
+    "title": "Time Individual Assessment 1",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is a timed individual assessment. You are required to complete the DataVis Makeover individually within 1 hour and 30 minutes during the class session.\n\nWrite-up\nYou are required to submit a write-up in Microsoft Word format via eLearn. The write-up should include, but is not limited to, the following:\n\nAt least three strengths of the original data visualisation.\nAt least three weaknesses of the original data visualisation.\nA sketch of the redesigned visualisation, together with a brief explanation of how the redesign addresses the weaknesses identified in the original visualisation.\n\n\n\nTableau Visualisation\nPublish your DataVis Makeover on Tableau Public and submit the link via eLearn."
+  },
+  {
+    "objectID": "TIA/TIA1.html#the-data",
+    "href": "TIA/TIA1.html#the-data",
+    "title": "Time Individual Assessment 1",
+    "section": "The Data",
+    "text": "The Data\nThe data can be download from Merchandise Trade page of Singstat webpage."
   }
 ]

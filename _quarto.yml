@@ -18,6 +18,12 @@ website:
           href: "TH_EX/TH_EX2.html"
         - text: "Take-home Exercise 3"
           href: "TH_EX/TH_EX3.html"
+    - text: "Timed Individual Assessment"
+      menu: 
+        - text: "Timed Individual Assessment 1"
+          href: "TIA/TIA1.html"
+        - text: "Timed Individual Assessment 2"
+          href: "TIA/TIA2.htnl"
     - text: "Visual Analytics Project"
       href: VAproject.html
 

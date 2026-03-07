@@ -1,0 +1,40 @@
+---
+title: "Time Individual Assessment 1"
+date: "March 6, 2026"
+date-modified: "last-modified"
+---
+
+::: callout-note
+DataVis Makeover is the process of redesigning existing data visualisation or dashboards to improve their clarity, effectiveness, and storytelling capacity. It focuses on applying best practices to make data easier to understand.
+:::
+
+## The Task
+
+In this Timed Individual Assessment, you are required to:
+
+-   Select one of the following data visualisations (refer to the provided [webpage](https://www.singstat.gov.sg/modules/infographics/singapore-international-trade)):
+    -   *TOTAL MERCHANDISE TRADE AT CURRENT PRICES, 2021-2025*
+    -   *MERCHANDISE TRADE PERFORMANCE WITH MAJOR TRADING PARTNERS, 2025*
+    -   *MAJOR TRADING PARTNERS FOR TRADE IN SERVICES, 2024*
+- Evaluate the selected visualisation by identifying its strengths and weaknesses.
+- Provide a sketch of a redesigned visualisation that improves upon the original design.
+- Create the DataVis Makeover using Tableau Desktop.
+
+## The Data
+
+The data can be download from [Merchandise Trade](https://www.singstat.gov.sg/find-data/search-by-theme/trade-and-investment/merchandise-trade/latest-data) page of Singstat webpage.
+    
+## Submission Instructions
+
+This is a **timed individual assessment**. You are required to complete the DataVis Makeover individually within **1 hour and 30 minutes** during the class session.
+
+### Write-up
+You are required to submit a write-up in **Microsoft Word** format via eLearn.
+The write-up should include, but is not limited to, the following:
+
+- At least three strengths of the original data visualisation.
+- At least three weaknesses of the original data visualisation.
+- A sketch of the redesigned visualisation, together with a brief explanation of how the redesign addresses the weaknesses identified in the original visualisation.
+
+### Tableau Visualisation
+Publish your DataVis Makeover on Tableau Public and submit the link via eLearn.
