@@ -50,13 +50,12 @@ The specific submission instructions are as follows:
 
 ## Submission date
 
-The completed take-home exercise is due on **15th March 2026 (Sunday) by 11:59pm mid-night**. 
+The completed take-home exercise is due on **15th March 2026 (Sunday) by 11:59pm mid-night**.
 
 ::: callout-warning
-Students are strongly recommended to complete Take-home Exercise 2 ahead of the submission deadline, ideally by **8th March 2026**.  This will allow you to have more time to focus on the building of the Shiny application and to iterate the usability of the application.
+Students are strongly recommended to complete Take-home Exercise 2 ahead of the submission deadline, ideally by **8th March 2026**. This will allow you to have more time to focus on the building of the Shiny application and to iterate the usability of the application.
 :::
 
 Please be informed that grading of Take-home Exercise 2 will start from **15th March 2026** onward.
 
 ## Peer Learning
-
