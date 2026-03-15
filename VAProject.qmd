@@ -18,20 +18,20 @@ A project may involve developing new methods or implementing visual analytics sy
 
 The followings are possible topic and data sources:
 
--   [COFINFAD-Colombian Fintech Financial Analytics Dataset](https://data.mendeley.com/datasets/mhb4zn3258/1) and refer to [this article](https://www.sciencedirect.com/science/article/pii/S2352340926000375) for more details.  This data sets are very suitable for teams that are interesting to build Data Science and Analytics Applications that includes but not limited to Exploratory Data Analysis, Confirmatory Data Analysis, Cluster Analysis, Exploratory Modelling, and Predictive Modelling. 
--   Be Businesswise or Otherwise! Visualising and analysing Business entities formation and closure using [ACRA (Accounting and Corporate Regulatory Authority) Information on Corporate Entities](https://data.gov.sg/datasets?query=ACRA&resultId=2) data sets.  These data sets are suitable for teams that are interested to build Geospatial Analytics Applications, ideally for students who have taken **ISSS626 Geospatial Analytics and Applications**.
--   It's About Time: Visualising, Analysing and Modelling Time-series Data. For this topic, students are required to select a theme (i.e. Retail Prices, Consumer Price Index (CPI),etc ) and download the data set from CEIC database portal from SMU digital library.  The data provided in this portal are very suitable for teams that are interested to build time-series analysis applications that includes but not limited to EDA, time-series clustering, time-series forecasting. 
+-   [COFINFAD-Colombian Fintech Financial Analytics Dataset](https://data.mendeley.com/datasets/mhb4zn3258/1) and refer to [this article](https://www.sciencedirect.com/science/article/pii/S2352340926000375) for more details. This data sets are very suitable for teams that are interesting to build Data Science and Analytics Applications that includes but not limited to Exploratory Data Analysis, Confirmatory Data Analysis, Cluster Analysis, Exploratory Modelling, and Predictive Modelling.
+-   Be Businesswise or Otherwise! Visualising and analysing Business entities formation and closure using [ACRA (Accounting and Corporate Regulatory Authority) Information on Corporate Entities](https://data.gov.sg/datasets?query=ACRA&resultId=2) data sets. These data sets are suitable for teams that are interested to build Geospatial Analytics Applications, ideally for students who have taken **ISSS626 Geospatial Analytics and Applications**.
+-   It's About Time: Visualising, Analysing and Modelling Time-series Data. For this topic, students are required to select a theme (i.e. Retail Prices, Consumer Price Index (CPI),etc ) and download the data set from CEIC database portal from SMU digital library. The data provided in this portal are very suitable for teams that are interested to build time-series analysis applications that includes but not limited to EDA, time-series clustering, time-series forecasting.
 
 ## Project Management
 
 The project is team work. Students are required to form a project team of **2-3** members by the first week of the academic term.
 
-**A good group project is a system consisting of a collection of well defined sub-modules**.  Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!
+**A good group project is a system consisting of a collection of well defined sub-modules**. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!
 
 ## Project Milestone
 
 -   Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
--   Editing and publishing project proposal on Netlify latest by the end of **15th March 2026 at 11:59pm (mid-night)**.
+-   Editing and publishing project proposal on Netlify latest by the end of ~~**15**~~**18th March 2026 at 11:59pm (mid-night)**.
 -   Uploading project poster on eLearn by **1st April 2026 (Wednesday) at 11:59pm (mid-night)**.
 -   Poster presentation: **4th April 2026 (Saturday), 2:00pm-3:30pm**
 -   Submission of Shiny application repository, project website repository, project poster, Minutes of Meeting and Peer Evaluation: **5th April 2026 (Sunday) by 11:59pm (mid-night)**
